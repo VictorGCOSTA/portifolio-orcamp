@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(247, 247, 247);
+    font-family: 'bungee', cursive;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;align-items: center;
+    margin-top: 0;
+    height:15vh;
+    background-color: rgb(231, 231, 231);
+    padding-left: 10px;
+    border-bottom-style: solid;
+    position: fixed;
+    width: 100%;
+}
+
+.list{
+    display: flex;
+    justify-content: space-around;
+    width: 30vw;
+    list-style: none;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    padding-top: 15vh;
+}
+
+.list-info{
+    list-style: none;
+    border: 10px;
+    border-style: solid;
+    border-width: 1px;
+    width: 40vw;
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-bottom: 15px;
+    border-radius: 12px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.proj{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-list{
+    list-style: none;
+    min-width: 40vw;
+    min-height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+
+img{
+    height: 15vh;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40vh;
+}
+
+.link{
+    text-decoration:underline;
+    color: black;
+    
+}
